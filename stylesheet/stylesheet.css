@@ -1,1 +1,15 @@
 /*add amazing style here*/
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+div {
+    width: 400px;
+    background: red;
+    padding: 10px;
+    
+}
