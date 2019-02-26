@@ -18,16 +18,21 @@ html {
 }
 
 .title-text {
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 .nav {
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     padding: 0px;
+    float: right;
+    padding-top: 13px;
 }
 
 .welcome-message {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
+    text-align: center;
+    margin-top: 40px;
+    text-shadow: 3px 5px 2px #474747
 }
 
 .nav li {
@@ -37,10 +42,28 @@ html {
 }
 
 .top-bar {
-    background: rgba(0, 0, 255, 0.7);
+    background: rgba(0, 0, 255, 0.4);
+    padding: 8px;
 }
 
 .top-bar .title-text,
 .top-bar .nav {
     display: inline-block;
+}
+
+.hero-image {
+    background-image: url(../buildings.jpg);
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+.secondary-text {
+    font-size: 24px;
+    font-style: italic;
+    /* color: black; */
+    text-shadow: 3px 5px 2px #474747
+}
+
+.welcome {
+    font-size: 48px;
 }
